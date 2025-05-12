@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-st.title("eBay Sold Listings Viewer")
+st.title("Scrape me!")
 query = st.text_input("Search for an item:")
 
 if query:
