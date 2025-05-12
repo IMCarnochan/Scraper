@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from bs4 import BeautifulSoup
 
-st.title("Scrape me!")
+st.title("eBay Sold Listings Viewer")
 
 query = st.text_input("Search for an item:")
 
